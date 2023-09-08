@@ -1,0 +1,58 @@
+body {
+    background-color: rgb(0, 0, 0);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+.formulario {
+    background-color: rgb(255, 255, 255);
+    width: 300px;
+    height: 350px;
+    margin: 20% auto;
+    border-radius: 30px;
+    padding-top: 40px;
+    text-align: center;
+}
+
+.tituloFormulario {
+    color: rgb(0, 0, 0);
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+.campo {
+    padding: 20px;
+    margin: auto;
+    border-radius: 30px;
+}
+
+.text {
+    text-align: center;
+    padding-top: 10px;
+}
+
+.inputTexto {
+    border: 1px solid rgb(0, 0, 0);
+    padding: 10px;
+    border-radius: 20px;
+}
+
+#boton {
+    text-align: center;
+    text-transform: uppercase;
+    padding: 10px;
+    max-width: 50%;
+    margin-top: 10px;
+    border-radius: 30px;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+
+#boton:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+}
